@@ -8,8 +8,6 @@ For Darpan Stores
 - Add product to database (From owner)
 - Get All products from DB (both owner and customer)
 
-
-
 ## HTTP Status
 
 - 200: All successful responses are of  200
@@ -32,9 +30,11 @@ For Darpan Stores
 
 ## ToDOs
 
-1. Schema for Product
-2. Add API for product insertion
-3. Add API for get All products
-4. Get One Product by product's _id
-5. Revise MongoDB
-6. Admin Login
+1. Schema for Product: title, description, brand, price, selling_price, quantity, category, created_at
+2. Add API for product insertion - POST Method - /product/add
+3. Add API for get All products - GET - /product/all
+4. Get One Product by product's _id - GET /product/:id
+5. Update Product's title, description, price, selling_price - PUT /product/:id 
+6. Delete Product - DELETE - /product/:id
+7. Revise MongoDB
+8. Admin Login
